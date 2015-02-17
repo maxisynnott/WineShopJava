@@ -9,7 +9,7 @@ public class DBconnection {
     private static Connection sConnection;
     
     
-    //Implement this DBConnection class as a singleton
+    //Implement this DBConnection class as a singleton, woop
     public static Connection getInstance() throws ClassNotFoundException, SQLException{
         String host, db, user, password;
         
