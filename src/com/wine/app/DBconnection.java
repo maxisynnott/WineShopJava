@@ -10,7 +10,7 @@ public class DBconnection {
     
     
     //Implement this DBConnection class as a singleton
-    dpublic static Connection getInstance() throws ClassNotFoundException, SQLException{
+    public static Connection getInstance() throws ClassNotFoundException, SQLException{
         String host, db, user, password;
         
         host = "daneel";
